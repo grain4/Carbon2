@@ -1,15 +1,17 @@
 body {
   font-family: 'Lexend', sans-serif;
-  font-weight: 300;
   font-size: 20px;
-  text-align: left;
-  margin-left: 3em;
-  margin-right: 1em;
-  margin-top: 2em;
-}
-p {style="background-image: url(/images/homepage-banner.jpg)
+  margin: 0;
+  
+
 }
 
+.index-part1 {
+  background-image: url(/images/homepage-banner.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+}
+  
 
 .title {
   color: #ffffff; 
@@ -18,14 +20,22 @@ p {style="background-image: url(/images/homepage-banner.jpg)
   font-size: 1.2em;
   font-weight: 400;
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 .navbar a {
   text-decoration: none;
-  padding: 20px;
-  margin-right: 0%;
+  margin: 3em;
 }
 
+#blog-link {
+  margin-left: -3em;
+}
+
+.index-content {
+  margin-left: 3em;
+}
 h1 {
   color: #ffffff; 
   font-family: 'Lexend', sans-serif;
