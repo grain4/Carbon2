@@ -9,9 +9,15 @@ body {
   background-repeat: no-repeat;
   background-color: black;
   background-attachment: fixed;
+  margin: 0;
   width: 100%;
-}
+  display: flex;
+  flex-direction: column;
   
+ 
+  min-height: 100vh;
+
+}
 .title {
   color: #ffffff;
 }
@@ -34,10 +40,10 @@ body {
   color: #ffffff;
   flex: 0 0 30%;
   margin-right: 3em;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
   }
 #index-content h2 {
-  font-size: 80px;
+  font-size: 100px;
 }
 
 #blog-list {
@@ -51,17 +57,23 @@ body {
   }
   
   .blog-containers {
-    margin-inline: 20px; 
+    margin-inline: 20px;
     margin-top: 1em;
-    margin-bottom: 16em;
+    margin-bottom: 10em;
+    max-width: 100%;
+    margin: 10 auto;
+   
   } 
-
+  .blog-containers img {
+    max-width: 100%;
+    height: auto;
+  }
 
 .blogpost {
-  width: 60%;
+  max-width: 100%;
   color: #ffffff;
-  margin-right: 40em;
- margin-bottom: 10em;
+  margin-right: 40%;
+  margin-bottom: 10em;
 }
 
 .blogpost h2{
@@ -73,7 +85,9 @@ body {
 .nav a {
   margin-left: 4em;
 }
-
+#about {
+  max-width: 100%;
+}
 #about-link {
   padding-left: 40em;
 }
@@ -96,9 +110,10 @@ margin-top: 8em;
 }
 
 .image {
-  margin-top: -5em;
+  margin-top: 5em;
   margin-left: 6em;
   margin-right: 4em;
+  max-width: 100%;
 }
 
 .background-image{
@@ -144,15 +159,16 @@ margin-bottom: 3em;
 margin-left: 4em;
 color: #ffffff;
 }
+
 li {
   margin-left: 3em;
-
 }
 
 .banner {
  margin-left: 4em;
  margin-right: 4em;
  margin-top: 8em;
+ max-width: 100%;
 
 }
 
